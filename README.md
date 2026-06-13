@@ -1,16 +1,53 @@
-# React + Vite
+# Task Board App 📋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Jira-inspired task management application built with React.
 
-Currently, two official plugins are available:
+## 🎯 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built as part of my React learning journey covering:
 
-## React Compiler
+- Module 4 — Complete UI with reusable components
+- Module 5 — Full functionality with state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Add tasks with title and tags
+- Select task status (Ready for Development,
+  In Progress, Ready for Test, Closed)
+- Tasks displayed in respective columns
+- Tag selection and highlighting
+- Delete tasks
+- Drag and drop functionality
+- Local storage persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- CSS
+
+## 📁 Folder Structure
+
+src/
+├── components/
+│ ├── TaskForm/
+│ ├── TaskCard/
+│ ├── TaskColumn/
+│ └── Tag/
+├── App.jsx
+└── App.css
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/aniruddha-jadhav-15/task-board-app.git
+cd task-board-app
+npm install
+npm run dev
+```
+
+## 👨‍💻 Author
+
+Aniruddha Jadhav  
+[Portfolio](https://aniruddha-jadhav-portfolio.netlify.app) |
+[GitHub](https://github.com/aniruddha-jadhav-15)
